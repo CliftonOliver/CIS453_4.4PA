@@ -9,12 +9,7 @@ const Input = () => {
 
   return (
     <div>
-      <input
-        type="text"
-        placeholder="Enter some text"
-        value={text}
-        onChange={handleInputChange}
-      />
+      <input type="text" value={text} onChange={handleInputChange} />
       <p>Entered Text: {text}</p>
     </div>
   );
