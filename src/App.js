@@ -1,6 +1,7 @@
 import Counter from "./components/counter";
 import TodoList from "./components/todolist";
 import Input from "./components/input";
+import RandomQuote from "./components/newComponent";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Counter />
       <Input />
       <TodoList />
+      <RandomQuote />
     </div>
   );
 }
