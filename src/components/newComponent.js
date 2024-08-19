@@ -7,6 +7,7 @@ const RandomQuote = () => {
     "The best way to predict the future is to create it.",
     "Your time is limited, don't waste it living someone else's life.",
     "The purpose of our lives is to be happy.",
+    "THIS IS A NEW QUOTE THAT SHOULD MAKE YOU FEEL INSPIRED",
   ];
 
   const [quote, setQuote] = useState(quotes[0]);
